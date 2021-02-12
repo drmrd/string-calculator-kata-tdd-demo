@@ -1,10 +1,9 @@
 def add(numbers):
-    if numbers == '1,2':
-        return 3
-    if numbers == '1,3':
-        return 4
-
     if numbers:
-        return int(numbers)
+        numbers = numbers.split(',')
+        result = 0
+        for number in numbers:
+            result += int(number)
+        return result
 
     return 0
