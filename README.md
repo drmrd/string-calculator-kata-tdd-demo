@@ -3,7 +3,7 @@ Adapted to Python from [this kata](https://osherove.com/tdd-kata-1).
 
 ## Instructions
 
-- Create a simple String calculator with a method signature:
+- Create a simple string calculator with a method signature:
     ```python
     add(str numbers) -> int
     ```
