@@ -1,4 +1,5 @@
 # String Calculator
+Adapted to Python from [this kata](https://osherove.com/tdd-kata-1).
 
 ## Instructions
 
