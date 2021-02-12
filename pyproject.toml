@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "string-calculator-kata"
+version = "0.1.0"
+description = "Code from a TDD demonstration on 2021-02-12"
+authors = ["Dan Moore <dmoore@pillartechnology.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
+ipython = "^7.20.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
