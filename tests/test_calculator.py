@@ -19,3 +19,7 @@ def test_add_when_given_negative_integer_returns_that_number():
 
 def test_add_when_given_1_and_2_by_a_comma_returns_their_sum():
     assert calculator.add('1,2') == 3
+
+
+def test_add_when_given_1_and_3_by_a_comma_returns_their_sum():
+    assert calculator.add('1,3') == 4
