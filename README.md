@@ -34,13 +34,13 @@ STOP HERE if you are a beginner. Continue if you can finish the steps so far in 
 - Numbers bigger than 1000 should be ignored, so adding 2 + 1001 = 2
 - Delimiters can be of any length with the following format:
     ```python
-        '//[delimiter]\n'
+    '//[delimiter]\n'
     ```
     for example: `'//[***]\n1***2***3'` should return `6`
 
     Allow multiple delimiters like this:
     ```python
-        '//[delim1][delim2]\n'
+    '//[delim1][delim2]\n'
     ```
     for example `'//[*][%]\n1*2%3'` should return `6`.
 - Make sure you can also handle multiple delimiters with length longer than one character
