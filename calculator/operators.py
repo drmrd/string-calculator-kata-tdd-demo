@@ -1,5 +1,5 @@
 def add(numbers):
-    if numbers == '':
+    if not numbers:
         return 0
     else:
         return int(numbers)
