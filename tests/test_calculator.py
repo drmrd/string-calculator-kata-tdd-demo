@@ -29,3 +29,7 @@ def test_add_when_given_1_and_3_by_a_comma_returns_their_sum():
 
 def test_add_when_given_more_than_two_integers_returns_their_sum():
     assert calculator.add('2,3,5') == 10
+
+
+def test_add_when_given_newline_separated_integers_returns_their_sum():
+    assert calculator.add('1\n2') == 3
